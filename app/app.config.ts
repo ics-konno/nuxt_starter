@@ -1,5 +1,5 @@
 export default defineAppConfig({
 parent: {
-primary: "mint",
+primary: "rose",
 },
 });
