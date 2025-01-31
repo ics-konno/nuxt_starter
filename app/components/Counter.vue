@@ -7,6 +7,7 @@
     <button @click="decrement">
       Decrement
     </button>
+    <p>{{ parent.primary }}</p>
   </div>
 </template>
 
@@ -20,6 +21,8 @@ const increment = () => {
 const decrement = () => {
 	count.value--;
 };
+
+const { parent } = useAppConfig();
 </script>
 
 <style scoped>

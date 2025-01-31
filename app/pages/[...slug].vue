@@ -5,8 +5,6 @@ const { data: page } = await useAsyncData(`page-${route.path}`, () => {
 	return queryCollection("content").path(route.path).first();
 });
 
-const { parent } = useAppConfig();
-
 if (!page.value) {
 	throw createError({
 		statusCode: 404,
@@ -17,7 +15,6 @@ if (!page.value) {
 </script>
 
 <template>
-  <p>{{parent.primary}}</p>
   <ContentRenderer
     v-if="page"
     :value="page"
