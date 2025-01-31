@@ -1,5 +1,1 @@
-export default defineAppConfig({
-  parent: {
-    primary: "rose"
-  }
-});
+export default defineAppConfig({});
