@@ -7,7 +7,7 @@
     <button @click="decrement">
       Decrement
     </button>
-    <p>{{ parent.primary }}</p>
+    <p>{{ data.parent.primary }}</p>
   </div>
 </template>
 
@@ -22,7 +22,7 @@ const decrement = () => {
 	count.value--;
 };
 
-const { parent } = useAppConfig();
+const data = useAppConfig();
 </script>
 
 <style scoped>
