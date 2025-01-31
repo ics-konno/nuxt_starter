@@ -13,7 +13,6 @@ export default defineNuxtSchema({
 					description: "Primary color of your UI.",
 					icon: "i-ph-palette",
 					default: "sky",
-					required: ["sky", "mint", "rose", "amber"],
 				}),
 			},
 		}),
