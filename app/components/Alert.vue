@@ -6,11 +6,11 @@
 
 <script setup lang="ts">
 const { color } = defineProps({
-  color: {
-    type: String,
-    default: 'orange'
-  }
-})
+	color: {
+		type: String,
+		default: "orange",
+	},
+});
 </script>
 
 <style scoped>
