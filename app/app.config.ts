@@ -1,5 +1,5 @@
 export default defineAppConfig({
-	parent: {
-		primary: "sky",
-	},
+parent: {
+primary: "mint",
+},
 });
