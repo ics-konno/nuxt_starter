@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-	modules: ["@nuxt/content", "@nuxthq/studio"],
+	modules: ["@nuxt/content"],
 	devtools: { enabled: true },
 	future: {
 		compatibilityVersion: 4,
