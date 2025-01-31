@@ -11,7 +11,6 @@
 	},
 	"dependencies": {
 		"@nuxt/content": "^3.0.1",
-		"@nuxthq/studio": "2.2.1",
 		"@vue/language-server": "^2.2.0",
 		"nuxt": "^3.15.4"
 	},
