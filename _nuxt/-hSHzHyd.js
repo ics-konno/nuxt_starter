@@ -1,1 +1,0 @@
-import{j as o,i as s,c as r,U as c}from"./Bt5-dbSl.js";const n={};function t(e,a){return s(),r("code",null,[c(e.$slots,"default")])}const _=Object.assign(o(n,[["render",t]]),{__name:"ProseCode"});export{_ as default};

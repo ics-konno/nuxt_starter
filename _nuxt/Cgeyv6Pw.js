@@ -1,1 +1,0 @@
-import{ae as p,af as o,u as i,K as a}from"./Bt5-dbSl.js";const f=p({parent:{primary:"rose"}}),e={nuxt:{}},t=o(f,e);function r(){const n=i();return n._appConfig||(n._appConfig=a(t)),n._appConfig}export{r as u};
