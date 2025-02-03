@@ -5,6 +5,10 @@ const { data: page } = await useAsyncData(`page-${route.path}`, () => {
 	return queryCollection("content").path(route.path).first();
 });
 
+const { data: all } = await useAsyncData("all", () =>
+	queryCollection("content").all(),
+);
+
 if (!page.value) {
 	throw createError({
 		statusCode: 404,
@@ -15,6 +19,9 @@ if (!page.value) {
 </script>
 
 <template>
+  <div v-for="item in all">
+    {{item.title}}
+  </div>
   <ContentRenderer
     v-if="page"
     :value="page"
