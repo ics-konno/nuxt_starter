@@ -1,1 +1,0 @@
-import{d as r,i as a,c as o,U as s,ah as l,j as n}from"./Ty676KFb.js";const c=r({__name:"Alert",props:{color:{type:String,default:"orange"}},setup(e){return(t,d)=>(a(),o("div",{class:"alert",style:l({"border-color":e.color})},[s(t.$slots,"default",{},void 0,!0)],4))}}),p=Object.assign(n(c,[["__scopeId","data-v-ac516694"]]),{__name:"Alert"});export{p as default};

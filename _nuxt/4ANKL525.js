@@ -1,1 +1,0 @@
-import{j as s,i as a,c as r,U as t}from"./Ty676KFb.js";const n={};function o(e,c){return a(),r("table",null,[t(e.$slots,"default")])}const _=Object.assign(s(n,[["render",o]]),{__name:"ProseTable"});export{_ as default};

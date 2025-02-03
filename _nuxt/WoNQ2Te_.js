@@ -1,0 +1,1 @@
+import{j as s,i as o,c as r,X as n}from"./DPOAIZYs.js";const t={};function c(e,a){return o(),r("ol",null,[n(e.$slots,"default")])}const _=Object.assign(s(t,[["render",c]]),{__name:"ProseOl"});export{_ as default};

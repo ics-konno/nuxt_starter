@@ -1,0 +1,1 @@
+import{af as p,ag as o,u as i,P as a}from"./DPOAIZYs.js";const f=p({parent:{primary:"rose"}}),t={nuxt:{}},e=o(f,t);function r(){const n=i();return n._appConfig||(n._appConfig=a(e)),n._appConfig}export{r as u};

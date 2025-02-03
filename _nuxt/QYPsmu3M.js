@@ -1,1 +1,0 @@
-import{j as s,i as r,c as t,U as n}from"./Ty676KFb.js";const o={};function c(e,a){return r(),t("th",null,[n(e.$slots,"default")])}const _=Object.assign(s(o,[["render",c]]),{__name:"ProseTh"});export{_ as default};
