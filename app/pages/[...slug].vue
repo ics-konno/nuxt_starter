@@ -22,6 +22,9 @@ if (!page.value) {
   <div v-for="item in all">
     {{item.title}}
   </div>
+  <div>
+    <NuxtLink to="/blog">Blog</NuxtLink>
+  </div>
   <ContentRenderer
     v-if="page"
     :value="page"
